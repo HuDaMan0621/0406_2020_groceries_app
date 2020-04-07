@@ -25,6 +25,15 @@ while True:
         break
     else: 
         groceries.append(item)    
+#        try:
+#     age=int(input('Enter your age: '))
+# except:
+#     print ('You have entered an invalid value.')
+# else:
+#     if age <= 21:
+#         print('You are not allowed to enter, you are too young.')
+#     else:
+#         print('Welcome, you are old enough.')
     #temp_groceries = item #temp list to hold the new value 
     #if the item is duplicated, prompt user 
     #if item in temp_groceries: 
@@ -60,8 +69,8 @@ while True:
     for i in indexes:
             item = groceries[i]
             print(f'{i}: {item}')
-    else:
-            print(groceries)
+    # else:
+    #         print(groceries)
     
 # def checkfordup(groceries):
 #     groceries_list = set()
